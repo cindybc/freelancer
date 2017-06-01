@@ -1,3 +1,178 @@
 /*
  * Estilos de tu proyecto
  */
+
+ *{
+ 	box-sizing: border-box;
+ }
+
+ body{
+ 	font-family: 'Archivo Black', sans-serif;
+ 	margin:0 auto;
+ 	
+ }
+
+nav{
+	background-color: #2C3E50;
+	position: fixed;
+	width: 100%;
+
+}
+ ul{
+ 	list-style: none;
+ 	float: right;
+ }
+
+ ul li{
+ 	display: inline-block;
+ }
+
+ ul li a, .text-menu{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	color: white;
+ 	text-align: center;
+	padding: 26px;
+	cursor: default;
+ }
+
+ li a:hover{
+ 	color: #18BC9C;
+ }
+
+ .text-menu{
+ 	margin-top: 12px;
+ 	font-size: 25px;
+ }
+
+ header{
+ 	text-align: center;
+ 	background: #18BC9C;
+ }
+
+ .inicio{
+ 	padding-top: 210px;
+ 	padding-bottom: 110px;
+ }
+
+.boot{
+	font-size: 50px;
+	color: white;
+}
+
+.hr-white, .hr-blue{
+	border: 2px solid white;
+	width: 20%;
+	text-align: center;
+}
+
+.hr-blue{
+	border: 2px solid #2C3E50;
+}
+
+h2, .col-6 p{
+	font-family: 'Raleway', sans-serif;
+ 	color: white;
+ 	padding:10px;
+ }
+
+ .enlace a{
+ 	color: white;
+ 	border: 2px solid white;
+ 	font-size: 20px;
+ 	margin-top: 15px;
+ 	padding: 10px 15px;
+ 	border-radius: 10px;
+ 	text-decoration: none;
+ 	margin-left: 310px;
+ }
+
+ .enlace a:hover{
+    background-color: white;
+    color: #18BC9C;
+ }
+
+.text-portafolio, .text-about, .text-contact{
+	color: #2C3E50;
+	text-align: center;
+	font-size: 40px;
+}
+
+.text-about{
+	color: white;
+}
+
+ .about{
+ 	background-color: #18BC9C;
+ 	color: white;
+ 	padding: 100px 190px;
+ }
+
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+
+.row{
+	cursor: pointer;
+}
+
+.imagen{
+	width: 100%;
+}
+
+.col-4, .col-6{
+	width: 33.333333%;
+	min-height: 7px;
+	float: left;
+	padding: 25px;
+}
+
+.col-6{
+	width: 50%; 
+}
+
+ /*MODAL*/
+
+
+#imagenesModal{
+	background-color: rgb(135, 228, 139);
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#imagenesModal .modalcito{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#imagenesModal .cerrar{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+#imagenesModal .cerrar img{
+	width: 60px;
+}
+
+.claseModal{
+	display: none;
+}
