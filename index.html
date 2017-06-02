@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
-	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
     <link rel="stylesheet" href="css/common.css">
@@ -65,7 +65,7 @@
  		<h1 class="text-about">ABOUT</h1>
  		<hr class="hr-white">
  	</div>
- 	<div class="enlace">
+ 	<div class="">
  	  <div class="row">
  	     <div class="col-6">
  		     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -73,9 +73,11 @@
  		 <div class="col-6">    
  		     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
  		 </div> 
- 		 </div>   
- 	  <a href="#"><i class="fa fa-download" aria-hidden="true"></i>  Download Theme</a>
+ 	  </div>
  	</div>
+ 	<div class="enlace">    
+ 	  <a href="#"><i class="fa fa-download" aria-hidden="true"></i>  Download Theme</a>
+ 	</div>  
  </section>
  <section class="contacto">
  	<div>
@@ -88,42 +90,46 @@
  		    <div class="col-12">
  			     <label for="name"></label>
  			     <input type="text" placeholder="Name" id="name">
+ 			     <p id="valName"></p>
  			</div>
  			<div class="col-12">    
  			     <label for="email"></label>
  			     <input type="text" placeholder="Email Address" id="email">
+ 			     <p id="valEmail"></p>
  			</div>
  			<div class="col-12">     
  			     <label for="phone"></label>
  			     <input type="text" placeholder="Phone Number" id="phone">
+ 			     <p id="valPhone"></p>
  			</div>
  			<div class="col-12">    
  			     <label for="message"></label>
  			     <textarea class="area" id="message"  placeholder="Message" rows="5"></textarea>
+ 			     <p id="valMessage"></p>
  			</div>     
  			</div>
  		 </div>
- 			<button type="submit">Send</button>
+ 			<button type="submit" id="submit">Send</button>
  		</form>
  	</div>
  </section>
  <footer>
       <div class="row">
-        <div class="col-4">
-    	   <h1>LOCATION</h1>
+        <div class="col-4x">
+    	   <h3>LOCATION</h3>
     	   <p>3481 Melrose Place</p>
     	   <p>Beverly Hills, CA 90210</p>
     	</div>
-        <div class="col-4">
-            <h1>AROUD THE WEB</h1>
+        <div class="col-4x">
+            <h3>AROUD THE WEB</h3>
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-google-plus" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
             <i class="fa fa-linkedin" aria-hidden="true"></i>
             <i class="fa fa-dribbble" aria-hidden="true"></i>
     	</div>	
-        <div class="col-4">
-    	    <h1>ABOUT FREELANCER</h1>
+        <div class="col-4x">
+    	    <h3>ABOUT FREELANCER</h3>
     	    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>	 
     </div>
     </div>
