@@ -10,7 +10,7 @@ function cambio(){
      document.getElementById('logo').className = '';   
      document.getElementById('nav').className= '';
    }
-};
+};  
 
  /****MODAL***/
 
